@@ -1,5 +1,6 @@
 # archlinux-settings
 * install arch linux using the guide in arch wiki
+  * for dual boot I recommand this tutorial: https://www.youtube.com/watch?v=C3D_qzw94v8
 
 ## netwrok issue
 * install dhcpcd (using archoiso)
@@ -10,6 +11,3 @@
 * instsall sudo: `pacman -S sudo`
 * install vim: `pacman -S vim`
 * install firefox
-
-## i3
-* `pacman -S i3-gaps`
