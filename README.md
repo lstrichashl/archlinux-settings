@@ -10,6 +10,12 @@
 ## basics
 ### install basic DE utilities:
 * https://github.com/LukeSmithxyz/LARBS
+#### optional steps after installing LARBS:
+#### change browser
+larbs comes by default with `brave` browser. you can change it by:
+1. installing chromium/firefox
+2. uninstalling brave
+3. change default `BROWSER` env var in `~/.zprofile` file
 
 
 ### instsall hebrew:
