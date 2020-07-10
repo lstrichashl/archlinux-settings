@@ -8,6 +8,12 @@
 * run `systemctl enable dhcpcd@enp2s0` and `systemctl start dhcpcd@enp2s0`
 
 ## basics
-* instsall sudo: `pacman -S sudo`
-* install vim: `pacman -S vim`
-* install firefox
+### install basic DE utilities:
+* https://github.com/LukeSmithxyz/LARBS
+
+
+### instsall hebrew:
+(see "Generating locales" section at https://wiki.archlinux.org/index.php/Locale)
+* uncomment `he_IL.UTF-8 UTF-8` in `/etc/locale.gen`
+* run `locale-gen`
+* add `setxkbmap -option grp:switch,grp:alt_shift_toggle, us,il` in your ~/.xprofile (or initrc) file
