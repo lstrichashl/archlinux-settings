@@ -2,7 +2,7 @@
 * install arch linux using the guide in arch wiki
   * for dual boot I recommand this tutorial: https://www.youtube.com/watch?v=C3D_qzw94v8
 
-## netwrok issue
+## netwrok issue (in lenovo z51-70)
 * install dhcpcd (using archoiso)
 * run `ip link` and copy the port name (mine was enp2s0)
 * run `systemctl enable dhcpcd@enp2s0` and `systemctl start dhcpcd@enp2s0`
@@ -10,8 +10,7 @@
 ## basics
 ### install basic DE utilities:
 * https://github.com/LukeSmithxyz/LARBS
-#### optional steps after installing LARBS:
-#### change browser
+#### change browser (optional)
 larbs comes by default with `brave` browser. you can change it by:
 1. installing chromium/firefox
 2. uninstalling brave
